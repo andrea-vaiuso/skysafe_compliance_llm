@@ -4,6 +4,8 @@ A RAG-powered (Retrieval-Augmented Generation) intelligent assistant for UAV saf
 
 ## Architecture
 
+![image](Images/architecture.png "Architecture schema")
+
 ### System Overview
 
 SKYSAFE is built as a three-tier microservices architecture:
