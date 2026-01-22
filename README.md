@@ -423,13 +423,9 @@ No indicators returned. The server response was empty.
 - **API Keys**: Never commit real API keys; use environment variables
 - **User Isolation**: Chat history isolated per `user_id`
 
-## License
-
-[Add your license information here]
-
 ## Contributors
 
-[Add contributor information here]
+Andrea Vaiuso, Gabriele Immordino
 
 ## References
 
