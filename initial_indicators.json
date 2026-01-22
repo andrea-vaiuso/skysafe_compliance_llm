@@ -1,0 +1,22 @@
+{
+  "likely_regulatory_pathway": {
+    "name": "likely_regulatory_pathway",
+    "value": "Open",
+    "explanation": "None of the predefined risk assessments (PDRA-S01, PDRA-S02, PDRA-G01, PDRA-G02, PDRA-G03) match the operation characteristics: the operation is VLOS, over a sparsely populated uncontrolled area, with a maximum altitude between 50 m and 120 m. All listed PDRAs either require BvLOS (PDRA-S02, PDRA-G01, PDRA-G02, PDRA-G03) or are limited to controlled ground areas (PDRA-S01). Therefore the operation does not fit any specific PDRA and falls under the Open category."
+  },
+  "initial_ground_risk_orientation": {
+    "name": "initial_ground_risk_orientation",
+    "value": "unknown",
+    "explanation": "The provided context does not include a direct mapping from the intrinsic ground risk class to the initial ground risk orientation categories (very_low, low, medium, high). To determine the correct orientation, additional information such as the specific risk orientation mapping or clarification of the operational scenario (e.g., VLOS vs BvLOS) would be required."
+  },
+  "initial_air_risk_orientation": {
+    "name": "initial_air_risk_orientation",
+    "value": "low",
+    "explanation": "The operation is conducted in uncontrolled airspace, below 150 m (gt_50 m ≤ 120 m), over a sparsely populated (rural) area. According to the Initial Air Risk Class Assessment (section [34]), such conditions correspond to a density rating of 1 and an initial air risk class of ARC‑b. ARC‑b represents the second‑lowest collision risk level, which maps to the orientation category “low.”"
+  },
+  "expected_assessment_depth": {
+    "name": "expected_assessment_depth",
+    "value": "simple_declaration",
+    "explanation": "The operation is VLOS, over a sparsely populated area, in uncontrolled airspace, and the aircraft is <25 kg. The only predefined risk assessments in the context (PDRA‑G02 and PDRA‑G01) apply to BvLOS operations with specific kinetic‑energy and dimension limits. Because the operation does not match any PDRA scope, no predefined assessment is available, so the assessment depth remains a simple declaration. The VLOS condition and the low‑mass aircraft reduce the need for a structured or full SORA assessment, keeping the depth at the simplest level."
+  }
+}
